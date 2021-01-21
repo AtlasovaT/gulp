@@ -1,0 +1,16 @@
+{
+  "name": "my-first-gulp-project",
+  "version": "1.0.0",
+  "description": "учусь работать с gulp",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "T.Atlasova",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0"
+  }
+}
