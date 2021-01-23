@@ -38,5 +38,5 @@
 *.tar
 *.zip
 *.xml
-/dest/*
+/dest/
 /node_modules/*

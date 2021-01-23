@@ -1,0 +1,42 @@
+@import "../blocks/variable.scss";
+@import "../blocks/helpers.scss";
+
+.button {
+  &-default {
+    display: inline-block;
+    @include makeButton($default_color, $white, $medium, 6px);
+    &:hover {
+      @include changeStateBtn($white, $default_color, $default_color);
+    }
+  }
+  &-disabled {
+    @include changeStateBtn($white, $gray, $gray);
+    cursor: not-allowed;
+    &:hover {
+      @include changeStateBtn($white, $gray, $gray);
+    }
+  }
+  &-catalogue {
+    @include makeButton($red, $white, $medium, 6px);
+    &:hover {
+      @include changeStateBtn($white, $red, $red);
+    }
+  }
+  @each $status, $theme in $themePallete {
+    &-#{$status} {
+      @include makeButton($theme, $white, $medium, 6px);
+      &:hover {
+        @include changeStateBtn($white, $theme, $theme);
+      }
+    }
+  }
+  &-small {
+    font-size: $small;
+    padding: px2em(0.5 * $small, $base) px2em(1.2 * $small, $base);
+  }
+  &-large {
+    font-size: $large;
+    padding: px2em(0.5 * $large, $base) px2em(1.2 * $large, $base);
+  }
+}
+

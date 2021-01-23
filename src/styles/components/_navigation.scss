@@ -1,0 +1,72 @@
+@import "../blocks/variable.scss";
+@import "../blocks/helpers.scss";
+
+.main-menu {
+  background-color: #161616;
+  padding: 0 20px;
+  position: relative;
+  &__toggle {
+    position: absolute;
+    top: 62px;
+    left: 0;
+  }
+}
+.toggle-menu {
+  min-width: 300px;
+  @include menuStatus(0, hidden, 0);
+  &__list {
+    display: flex;
+    flex-direction: column;
+    background-color: $menu_bg;
+    padding: 20px;
+    height: 100vh;
+    li {
+      margin-bottom: 14px;
+      a {
+        display: block;
+        color: $gray / 3;
+        font-weight: 600;
+        font-size: $medium;
+        transition: color 0.5s ease;
+        &:hover {
+          transition: color 0.5s ease;
+          color: $red * 1.2;
+        }
+      }
+    }
+  }
+  &__submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 20px);
+    padding: 20px 20px;
+    background-color: $menu_bg * 1.2;
+    li {
+      margin-bottom: 14px;
+      a {
+        display: block;
+        color: $gray;
+        font-weight: 500;
+        font-size: $medium - 2;
+        transition: color 0.5s ease;
+        &:hover {
+          transition: color 0.5s ease;
+          color: $red * 1.2;
+        }
+      }
+    }
+  }
+}
+.menu {
+  display: inline-block;
+  padding: 10px 0;
+}
+.is-open {
+  &:hover {
+    & > .toggle-menu {
+      @include menuStatus(1, visible, 100vh);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "../blocks/variable.scss";
+@import "../blocks/helpers.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  font-size: $base;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.one {
+  font-size: $small;
+  color: $blue;
+}
+.two {
+  font-size: $medium;
+  color: $red;
+}
+.three {
+  font-size: $large;
+  color: $green;
+}
+@media screen and (max-width: 767px) {
+  .two {
+    display: none;
+  }
+  .three {
+    display: none;
+  }
+}
+
+.rem {
+  font-size: px2rem(32px, $base);
+  display: flex;
+}
+.em {
+  font-size: px2em(32px, $base);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
