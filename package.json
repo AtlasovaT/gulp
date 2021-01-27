@@ -16,6 +16,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-pug": "^4.0.1",
     "gulp-pxtorem": "^3.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sass-glob": "^1.1.0",

@@ -9,16 +9,22 @@ const sassGlob = require('gulp-sass-glob');
 const gcmq = require('gulp-group-css-media-queries');
 const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
+const pug = require('gulp-pug');
 const browserSync = require('browser-sync').create();
 
 sass.compiler = require('node-sass');
 
-/* Копируем все содержимое из папки src в dist */
-const copy = () => {
-    return src('src/**/*.html')
-        .pipe(dest('dist'))
+const images = () => {
+    return src('src/assets/*/*.*')
+        .pipe(dest('./dist/assets'))
 }
-
+const compilePug = () => {
+    return src('src/pages/*.pug')
+        .pipe(pug({
+            pretty: true,
+        }))
+        .pipe(dest('dist'));
+}
 const compileScss = () => {
     return src(styles)
         .pipe(concat('main.scss'))
@@ -65,9 +71,10 @@ const server = (done) => {
 };
 
 const watchers = (done) => {
-    watch('src/**/*.html').on('all',series(copy, browserSync.reload));
+    watch('src/assets/images/*.*').on('all',series(images, browserSync.reload));
+    watch('src/pages/*.pug').on('all',series(compilePug, browserSync.reload));
     watch('src/**/*.scss', series(compileScss));
     done();
 }
 
-exports.default = series(clean, compileScss, copy, watchers, server)
+exports.default = series(clean, compilePug, compileScss, images, watchers, server)
