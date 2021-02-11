@@ -1,0 +1,18 @@
+mixin button(text, classes)
+    button.button(class=classes)&attributes(attributes)= text
+mixin productCard(photo, name, parameters, price)
+    a(href="#").product-card
+        .product-card__img
+            if (photo !== '')
+                img(src=photo, alt="product")
+            else
+                img(src='./assets/images/no-img.jpg', alt="product")
+        .product-card__content
+            .product-card__content-name= name
+            .product-card__content-characteristics.product-characteristics
+                each val, index in parameters
+                    .product-characteristics__item= val
+            if (price !== '')
+                .product-card__content-price= price
+            else
+                .product-card__content-price По запросу

@@ -1,13 +1,10 @@
-@import "../blocks/variable.scss";
-@import "../blocks/helpers.scss";
-
 .main-menu {
   background-color: #161616;
   padding: 0 20px;
   position: relative;
   &__toggle {
     position: absolute;
-    top: 62px;
+    top: 100%;
     left: 0;
   }
 }

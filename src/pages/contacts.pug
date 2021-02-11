@@ -1,3 +1,8 @@
-- var title = 'Контакты'
-include ../templates/layout/baseLayout
-p контакты
+extends ../templates/layout/baseLayout
+block head
+    - var title= 'Контакты'
+    include ../templates/blocks/head
+block scripts
+    include ../templates/blocks/scripts
+block content
+    p контакты

@@ -1,100 +1,88 @@
-- var title = 'Главная'
-include ../templates/layout/baseLayout
-mixin button(text, size, theme, state)
-    button.button-default(type="button", class=[size, theme], state)= text
-mixin productCard(photo, name, parameters, price)
-    a(href="#").product-card
-        .product-card__img
-            if (photo !== '')
-                img(src=photo, alt="product")
-            else
-                img(src='./assets/images/no-img.jpg', alt="product")
-        .product-card__content
-            .product-card__content-name= name
-            .product-card__content-characteristics.product-characteristics
-                each val, index in parameters
-                    .product-characteristics__item= val
-            if (price !== '')
-                .product-card__content-price= price
-            else
-                .product-card__content-price По запросу
-p(class="one") browserSync dev server runned1!
-p(class="two") browserSync dev server runned!
-p(class="three") browserSync dev server runned!
-p(class="rem") Into rem
-p(class="em") Into em
-+button('Активная', 'button-medium', '', '')
-+button('Отключенная', 'button-medium', 'button-disabled', disabled)
-</br>
-</br>
-+button('Primary', 'button-medium', 'button-primary', '')
-+button('Success', 'button-medium', 'button-success', '')
-+button('Info', 'button-medium', 'button-info', '')
-+button('Warning', 'button-medium', 'button-warning', '')
-+button('Danger', 'button-medium', 'button-danger', '')
-</br>
-</br>
-+button('Primary', 'button-small', 'button-primary', '')
-+button('Success', 'button-small', 'button-success', '')
-+button('Info', 'button-small', 'button-info', '')
-+button('Warning', 'button-small', 'button-warning', '')
-+button('Danger', 'button-small', 'button-danger', '')
-</br>
-</br>
-+button('Primary', 'button-large', 'button-primary', '')
-+button('Success', 'button-large', 'button-success', '')
-+button('Info', 'button-large', 'button-info', '')
-+button('Warning', 'button-large', 'button-warning', '')
-+button('Danger', 'button-large', 'button-danger', '')
-</br>
-</br>
--
-    var menu = [
-        'Газосиликатные блоки',
-        'Железобетонные изделия',
-        'Керамические блоки',
-        'Кирпичи',
-        'Кровельные материалы',
-        'Тротуарная плитка',
-        'Бордюрный камень'
-    ]
--
-    var submenu = [
-        'Облицовочный кирпич',
-        'Керамические кирпичи',
-        'Фасадный кирпич',
-        'Рядовой кирпич',
-        'Черновой кирпич',
-        'Кирпич рабочий',
-        'Сухие смеси'
-    ]
--
-    var products = [
-        { img: './assets/images/image1.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: './assets/images/image2.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: './assets/images/image3.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: './assets/images/image4.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
-        { img: './assets/images/image5.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
-        { img: './assets/images/image1.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
-        { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
-        { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' }
-    ]
-.products
-    each item in products
-        +productCard(item.img, item.name, item.parameters, item.price)
-.main-menu
-    .menu.is-open
-        a(class="button-default button-large button-catalogue" href="#") Каталог товаров
-        .main-menu__toggle.toggle-menu
-            ul(class="toggle-menu__list")
-                each item in menu
-                    li(class="is-open")
-                        a(href="#")= item
-                        if (item == 'Кирпичи')
-                            ul(class="toggle-menu__submenu toggle-menu")
-                                each item in submenu
-                                    li
-                                        a(href="#")= item
+extends ../templates/layout/baseLayout
+include ../templates/layout/mixins
+block head
+    - var title= 'Главная'
+    include ../templates/blocks/head
+block scripts
+    include ../templates/blocks/scripts
+block content
+    p(class="one") browserSync dev server runned1!
+    p(class="two") browserSync dev server runned!
+    p(class="three") browserSync dev server runned!
+    p(class="rem") Into rem
+    p(class="em") Into em
+    +button('Активная', ['button_medium'])(type="button")
+    +button('Отключенная', ['button_medium', 'button_warning'])(type="button", disabled)
+    </br>
+    </br>
+    +button('Primary', ['button_medium', 'button_primary'])(type="button")
+    +button('Success', ['button_medium', 'button_success'])(type="button")
+    +button('Info', ['button_medium', 'button_info'])(type="button")
+    +button('Warning', ['button_medium', 'button_warning'])(type="button")
+    +button('Danger', ['button_medium', 'button_danger'])(type="button")
+    </br>
+    </br>
+    +button('Primary', ['button_small', 'button_primary'])(type="button")
+    +button('Success', ['button_small', 'button_success'])(type="button")
+    +button('Info', ['button_small', 'button_info'])(type="button")
+    +button('Warning', ['button_small', 'button_warning'])(type="button")
+    +button('Danger', ['button_small', 'button_danger'])(type="button")
+    </br>
+    </br>
+    +button('Primary', ['button_large', 'button_primary'])(type="button")
+    +button('Success', ['button_large', 'button_success'])(type="button")
+    +button('Info', ['button_large', 'button_info'])(type="button")
+    +button('Warning', ['button_large', 'button_warning'])(type="button")
+    +button('Danger', ['button_large', 'button_danger'])(type="button")
+    </br>
+    </br>
+    -
+        var menu = [
+            'Газосиликатные блоки',
+            'Железобетонные изделия',
+            'Керамические блоки',
+            'Кирпичи',
+            'Кровельные материалы',
+            'Тротуарная плитка',
+            'Бордюрный камень'
+        ]
+    -
+        var submenu = [
+            'Облицовочный кирпич',
+            'Керамические кирпичи',
+            'Фасадный кирпич',
+            'Рядовой кирпич',
+            'Черновой кирпич',
+            'Кирпич рабочий',
+            'Сухие смеси'
+        ]
+    -
+        var products = [
+            { img: './assets/images/image1.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: './assets/images/image2.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: './assets/images/image3.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: './assets/images/image4.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
+            { img: './assets/images/image5.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
+            { img: './assets/images/image1.jpg', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' },
+            { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '11 руб/шт' },
+            { img: '', name: 'Кирпич керамический', parameters: ['Вид: Пустотный', 'Размер: 250х120х80', 'Цвет: красный'], price: '' }
+        ]
+    .products
+        each item in products
+            +productCard(item.img, item.name, item.parameters, item.price)
+    .main-menu
+        .menu.is-open
+            +button('Каталог товаров', ['button_large', 'button_catalogue'])
+            .main-menu__toggle.toggle-menu
+                ul(class="toggle-menu__list")
+                    each item in menu
+                        li(class="is-open")
+                            a(href="#")= item
+                            if (item == 'Кирпичи')
+                                ul(class="toggle-menu__submenu toggle-menu")
+                                    each item in submenu
+                                        li
+                                            a(href="#")= item
 

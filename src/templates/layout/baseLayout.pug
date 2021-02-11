@@ -1,6 +1,7 @@
-doctype html
 html
-    include ../blocks/head
+    block head
+        include ../blocks/head
     body
-        block main
-
+        block content
+        block scripts
+            script(src='/jquery.js')

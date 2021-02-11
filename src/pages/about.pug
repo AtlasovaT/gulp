@@ -1,3 +1,8 @@
-- var title = 'О нас'
-include ../templates/layout/baseLayout
-p о нас
+extends ../templates/layout/baseLayout
+block head
+    - var title= 'О нас'
+    include ../templates/blocks/head
+block scripts
+    include ../templates/blocks/scripts
+block content
+    p о нас

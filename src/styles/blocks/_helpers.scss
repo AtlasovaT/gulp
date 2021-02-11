@@ -6,11 +6,7 @@
   $emSize: $f_size / $base;
   @return $emSize * 1em;
 }
-@mixin changeStateBtn($color, $bg_color, $border) {
-  color: $color;
-  background-color: $bg_color / 1.5;
-  border-color: $border / 1.5;
-}
+
 @mixin makeButton($bg_color, $color, $f_size, $B_radius) {
   background-color: $bg_color;
   color: $color;
@@ -20,6 +16,23 @@
   border: 1px solid $bg_color;
   outline: none;
   cursor: pointer;
+  &:hover {
+    background-color: darken($bg_color, 15%);
+    border-color: darken($bg_color, 15%);
+  }
+  &:disabled {
+    cursor: not-allowed;
+    color: $color;
+    background-color: lighten($bg_color, 20%);
+    border-color: lighten($bg_color, 20%);
+  }
+}
+@mixin createThemeButtons($themeBtn) {
+  @each $status, $theme in $themeBtn {
+    &_#{$status} {
+      @include makeButton($theme, $white, $medium, 6px);
+    }
+  }
 }
 @mixin menuStatus($opacity, $visibility, $height) {
   opacity: $opacity;
