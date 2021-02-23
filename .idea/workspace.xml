@@ -2,11 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d98d267c-8ee5-4abe-a3b1-28b3350ca74f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/scripts/mainSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/scripts/module-one.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/scripts/module-two.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/dist/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/css/docs.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/animate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/autoheight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/autoplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/autowidth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/demos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/lazyLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/mousewheel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/stagepadding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/urlhashnav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/demos/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/api-classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/api-events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/api-options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/dev-buildin-plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/dev-external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/dev-plugin-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/dev-styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/started-faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/started-installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/started-welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/support-changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/support-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/docs/support-contributing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/feature-zombie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/owl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/img/twitter_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/js/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/demos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/docs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/docs.theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/scss/highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/vendors/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/vendors/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/data/classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/data/events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/data/features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/data/options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/helpers/modulo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/helpers/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/layouts/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/layouts/docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/layouts/home.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/pages/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/head.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/home-features.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/releated-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/title.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/docs_src/templates/partials/vendors.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/img/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.autorefresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.support.modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/js/owl.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_autoheight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_lazyload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/owl.carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/owl.theme.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/src/scss/owl.theme.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/test/unit/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendors/owl/test/unit/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/components/mainSlider.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contacts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/blocks/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blocks/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blocks/scripts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blocks/scripts.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +227,17 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Pug File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nNpUvphFVIZr367CIkT2CcYTGo" />
@@ -45,9 +257,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src/styles/blocks" />
-      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/src/js/scripts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,14 +269,31 @@
       <option name="presentableId" value="Default" />
       <updated>1611240440620</updated>
       <workItem from="1611240444818" duration="5411000" />
-      <workItem from="1611247395222" duration="3407000" />
-      <workItem from="1611299267706" duration="14960000" />
-      <workItem from="1611317718169" duration="24153000" />
-      <workItem from="1611678706167" duration="23848000" />
+      <workItem from="1611247395222" duration="1409000" />
+      <workItem from="1612771420259" duration="4684000" />
+      <workItem from="1612955685765" duration="18003000" />
+      <workItem from="1613067767588" duration="8028000" />
+      <workItem from="1613155455284" duration="605000" />
+      <workItem from="1613376783644" duration="16244000" />
+      <workItem from="1613814117181" duration="14949000" />
+      <workItem from="1613926127767" duration="11566000" />
+      <workItem from="1614094858298" duration="7997000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

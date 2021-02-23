@@ -1,0 +1,28 @@
+.simple-carousel {
+  max-width: 600px;
+  margin: 50px auto;
+  &__item {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  button.owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #636363;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin: 0 4px;
+    &.active {
+      background: #00b8ff;
+    }
+  }
+}

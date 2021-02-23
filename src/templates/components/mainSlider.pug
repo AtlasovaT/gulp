@@ -1,0 +1,5 @@
+mixin carousel(...args)
+    .simple-carousel.owl-carousel
+        each arg in args
+            .simple-carousel__item
+                img(src=arg, alt="picture")

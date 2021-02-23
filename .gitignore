@@ -8,6 +8,7 @@
 .settings
 .idea
 .idea/*
+.idea/workspace.xml
 .metadata
 *.iml
 *.ipr
